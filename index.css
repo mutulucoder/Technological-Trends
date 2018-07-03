@@ -22,6 +22,12 @@ div.scrollmenu a:hover {
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
 }
+    
+ .content {
+     padding: fixed;
+     color:black;
+    }
+     
 
 .sticky {
   position: fixed;
