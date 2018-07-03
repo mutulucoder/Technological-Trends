@@ -1,0 +1,34 @@
+
+div.scrollmenu {
+    background-color:#808080;
+    overflow: auto;
+    white-space: nowrap;}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color:#333300;
+
+.columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+sticky {position: fixed;
+                 top:0;
+         width: 100%; 
+        }
+.sticky+.html { padding-top: 100px;
+                  padding-bottom: 100px;
+                }
+
+body {background-color:#333300;
+     }
+
