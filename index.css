@@ -23,13 +23,8 @@ div.scrollmenu a:hover {
     column-count: 3;
 }
     
- .content {
-     padding: fixed;
-     color:black;
-    }
-     
-
-.sticky {
+ 
+ .sticky {
   position: fixed;
   top: 0;
   width: 100%;
