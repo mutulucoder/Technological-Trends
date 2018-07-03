@@ -5,6 +5,7 @@ div.scrollmenu {
     white-space: nowrap;}
 
 div.scrollmenu a {
+    float: right;
     display: inline-block;
     color: white;
     text-align: center;
