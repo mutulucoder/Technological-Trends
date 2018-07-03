@@ -15,6 +15,7 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
     background-color:#333300;
+}
 
 .columns {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -32,4 +33,14 @@ sticky {position: fixed;
 
 body {background-color:#333300;
      }
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #171717;
+color: white;
+text-align: center;
+
 
