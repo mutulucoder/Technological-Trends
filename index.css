@@ -23,7 +23,7 @@ div.scrollmenu a:hover {
     column-count: 3;
 }
 
-sticky {position: fixed;
+.sticky {position: fixed;
                  top:0;
          width: 100%; 
         }
