@@ -18,6 +18,10 @@
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
 </div> 
+  
+  <page size="A3">
+  <ul>
+ </nav>
 
 <div class="jumbotron text-center">
   <h1>Techno Trends in 2018</h1>
@@ -61,6 +65,21 @@ While the future is unknown, we believe in leveraging technology to create perso
 What do you think of these seven technology trends for 2018? Anything you want to add? Please join the discussion in the comments below. If you want to download the presentation of the seven top technology trends for 2018.</article></p>
 
 <script type ="index.js"></script>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 <div class="footer">
 <p>copy right @ 2018 trends.</p>
